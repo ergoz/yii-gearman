@@ -17,6 +17,7 @@ Extract the files into the extension directory and change the config like bellow
     )
 ```
 Simple example:
+
 ```php
 // Client example
 Yii::app()->gearman->client()->doBackground("reverse", "Hello world!");
